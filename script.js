@@ -1,4 +1,8 @@
-//your JS code here. If required.
-console.log(isDate(new Date())); // Output: true
-console.log(isDate("2023-08-11")); // Output: true
-console.log(isDate("not a date")); // Output: false
+// Get the current URL from the location object
+const currentURL = window.location.href;
+
+// Get the length of the URL string
+const urlLength = currentURL.length;
+
+// Display the length using alert
+alert(`The length of the URL is: ${urlLength}`);
